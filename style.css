@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 0 40px;
+    grid-template-areas: ".content content content content";
+}
+
+.content {
+    grid-area: content;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.dark-header {
+    background-color: #005681;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.light-header {
+    color: white;
+    background-color: #00aaff;
+    padding-top: 500px;
+    margin-top: -500px;
+}
+
+.brand-raw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    margin-right: .5rem;
+    position: relative;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.dark-header-divider {
+    background-image: url(#);
+    height: 150px;
+    margin-top: -5px;
+    background-position: bottom left;
+    background-size: cover;
+}

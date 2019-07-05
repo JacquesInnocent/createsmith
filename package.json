@@ -1,0 +1,16 @@
+{
+  "name": "expressure",
+  "version": "1.0.0",
+  "description": "My first Express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "Node start"
+  },
+  "author": "Jacques Innocent",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
